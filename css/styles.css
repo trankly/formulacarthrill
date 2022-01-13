@@ -37,6 +37,17 @@
   color:#1e1e1e;
 }
 
+
+.car {
+	width: 110%;
+	position: absolute;
+	left: -10%;
+	top: 25%;
+	/*visibility: hidden;*/
+}
+
+
+	
 .jumbotron hr {
   margin:0px;
   margin-top:10px;
@@ -180,4 +191,74 @@ h6 {
 }
 .mt-l {
 	margin-top: 60px;
+}
+
+.panel-main {
+	height: 600px;
+	margin: 0;
+	padding: 0;
+}
+.panel-top {
+	height: 350px;
+}
+.panel-bottom {
+	height: 250px;
+}
+
+.panel-bottom P {
+	padding: 175px 30px 20px 30px;
+}
+.facility H1 {
+	margin-top: 100px;
+}
+.facility H6 {
+	margin-bottom: 350px;
+}
+.group-shot {
+	height: 500px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For small screens: */
+	.car {
+		/*width: 110%;
+		position: absolute;
+		left: -10%;
+		top: 25%;*/
+		visibility: hidden;
+	}
+	.panel-main {
+		height: 250px;
+		margin: 0;
+		padding: 0;
+	}
+	.panel-top {
+		height: 150px;
+		margin: 0;
+		padding: 0;
+	}
+	.panel-bottom {
+		height: 100px;
+		margin: 0;
+		padding: 0;
+	}
+	.panel-bottom P {
+		padding: 25px 10px 10px 10px;
+	}
+
+	.facility H1 {
+		margin-top: 50px;
+	}
+	.facility H6 {
+		margin-bottom: 150px;
+	}
+	.group-shot {
+		height: 500px;
+	}
+
+
+
+
+
 }
