@@ -217,7 +217,9 @@ h6 {
 .group-shot {
 	height: 500px;
 }
-
+.mobile-space {
+	visibility: hidden;
+}
 
 @media only screen and (max-width: 768px) {
   /* For small screens: */
@@ -252,9 +254,10 @@ h6 {
 	.group-shot {
 		height: 500px;
 	}
-
-
-
+	.mobile-space {
+		height: 200px;
+		widows: 100%;
+	}
 
 
 }
