@@ -222,10 +222,6 @@ h6 {
 @media only screen and (max-width: 768px) {
   /* For small screens: */
 	.car {
-		/*width: 110%;
-		position: absolute;
-		left: -10%;
-		top: 25%;*/
 		visibility: hidden;
 	}
 	.panel-main {
