@@ -221,6 +221,38 @@ h6 {
 	visibility: hidden;
 }
 
+.start {
+	height: 300px;
+	color: #FFF;
+	background-color: #333;
+	background-image:url("../images/panel-1.png");
+	background-position: center top;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.racing {
+	height: 300px;
+	color: #FFF;
+	margin-top: 30px;
+	background-color: #333;
+	background-image:url("../images/panel-2.png");
+	background-position: center top;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.finish {
+	height: 150px;
+	color: #FFF;
+	margin-top: 200px;
+	background-color: #333;
+	background-image:url("../images/panel-3.png");
+	background-position: center top;
+	text-align: center;
+	padding-top: 20px;
+}
+
 @media only screen and (max-width: 768px) {
   /* For small screens: */
 	.car {
@@ -257,6 +289,36 @@ h6 {
 	.mobile-space {
 		height: 200px;
 		widows: 100%;
+	}
+
+	.start {
+		height: 300px;
+		color: #FFF;
+		background-color: #333;
+		background-image:url("../images/panel-1.png");
+		background-position: center top;
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	.racing {
+		height: 400px;
+		color: #FFF;
+		background-color: #333;
+		background-image:url("../images/panel-2.png");
+		background-position: center top;
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	.finish {
+		height: 150px;
+		color: #FFF;
+		background-color: #333;
+		background-image:url("../images/panel-3.png");
+		background-position: center top;
+		text-align: center;
+		padding-top: 20px;
 	}
 
 }
