@@ -192,6 +192,9 @@ h6 {
 .mt-l {
 	margin-top: 60px;
 }
+.mt-xl {
+	margin-top: 120px;
+}
 
 .panel-main {
 	height: 600px;
@@ -216,6 +219,8 @@ h6 {
 }
 .group-shot {
 	height: 500px;
+	background-image: url('../images/group.jpg');
+	background-position: center center;
 }
 .mobile-space {
 	visibility: hidden;
@@ -252,6 +257,19 @@ h6 {
 	text-align: center;
 	padding-top: 20px;
 }
+.racetrack {
+	background-image:url('../images/facilities.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.cartrack {
+	background-image: url('../images/cartrack.jpg');
+	height: 625px;
+	text-align:center;
+	padding-top:140px;	
+	background-position: center center;
+}
+
 
 @media only screen and (max-width: 768px) {
   /* For small screens: */
@@ -319,6 +337,32 @@ h6 {
 		background-position: center top;
 		text-align: center;
 		padding-top: 20px;
+	}
+	.mt-xl {
+		margin-top: 30px;
+	}
+	.mt-m {
+		margin-top: 10px;
+	}
+	.racetrack {
+		background-image:url('../images/facilities-sm.jpg');
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	.group-shot {
+		height: 250px;
+		background-image: url('../images/group-sm.jpg');
+		background-position: center top;
+		background-repeat: no-repeat;
+	}
+
+	.cartrack {
+		background-image: url('../images/cartrack-sm.jpg');
+		height: 300px;
+		width: 100%;
+		text-align:center;
+		padding-top:50px;
+		background-position: center center;
 	}
 
 }
