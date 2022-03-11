@@ -90,7 +90,7 @@ hr {
 }
 
 h1, .jumbotron h1 {
-  font-size:48px;
+  font-size:44px;
   font-weight:500;
   letter-spacing:-.5px;
   margin:0px;
@@ -205,11 +205,11 @@ h6 {
 	height: 350px;
 }
 .panel-bottom {
-	height: 250px;
+	height: 200px;
 }
 
 .panel-bottom P {
-	padding: 175px 30px 20px 30px;
+	padding: 150px 30px 20px 30px;
 }
 .facility H1 {
 	margin-top: 100px;
@@ -309,7 +309,7 @@ h6 {
 	background: transparent;
 	border: none;
 	border-bottom: 1px solid #666666;
-	width: 50%;
+	width: 60%;
 	outline: none;
 	padding: 0px 0px 0px 0px;
 }
