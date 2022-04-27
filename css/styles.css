@@ -253,12 +253,12 @@ h6 {
 	height: 150px;
 	color: #FFF;
 	margin-top: 200px;
-	background-color: #333;
+	background-color: #999;
 	background-image:url("../images/panel-3.png");
-	background-position: center bottom;
+	background-position: center top;
 	text-align: center;
 	padding-top: 20px;
-}
+}	
 .racetrack {
 	background-image:url('../images/facilities.jpg');
 	background-repeat: no-repeat;
